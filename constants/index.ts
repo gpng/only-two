@@ -3,7 +3,7 @@ import { Place } from 'models/place';
 export const BOT_TOKEN = process.env.NEXT_PUBLIC_BOT_TOKEN;
 export const CHAT_ID = process.env.NEXT_PUBLIC_CHAT_ID;
 
-export const LAST_UPDATED = new Date(2021, 6, 19, 17, 20);
+export const LAST_UPDATED = new Date(2021, 6, 19, 22, 20);
 
 export const LIST: Array<Place> = [
   {
@@ -46,4 +46,5 @@ export const LIST: Array<Place> = [
     insta: 'https://www.instagram.com/p/CRftC61HMGq/',
   },
   { name: 'Cafe&Meal MUJI', fb: 'https://www.facebook.com/muji.sg/posts/4170556196359678' },
+  { name: 'Starbucks', fb: 'https://www.facebook.com/StarbucksSingapore/posts/10165050792115136' },
 ];
