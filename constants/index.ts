@@ -3,6 +3,8 @@ import { Place } from 'models/place';
 export const BOT_TOKEN = process.env.NEXT_PUBLIC_BOT_TOKEN;
 export const CHAT_ID = process.env.NEXT_PUBLIC_CHAT_ID;
 
+export const LAST_UPDATED = new Date(2021, 6, 19, 16, 34);
+
 export const LIST: Array<Place> = [
   {
     name: "McDonald's",

@@ -24,8 +24,9 @@ import {
 } from '@chakra-ui/react';
 import React, { FC, useEffect, useState } from 'react';
 import axios from 'axios';
+import format from 'date-fns/format';
 
-import { BOT_TOKEN, CHAT_ID, LIST } from 'constants/index';
+import { BOT_TOKEN, CHAT_ID, LAST_UPDATED, LIST } from 'constants/index';
 import { Place } from 'models/place';
 
 const orderList = (list: Array<Place>): Array<Place> =>
@@ -100,7 +101,10 @@ const Index: FC = () => {
         </ModalContent>
       </Modal>
       <VStack spacing={4} alignItems="flex-start">
-        <Heading as="h1">Only two diners allowed from 19 July to 8 August 2021</Heading>
+        <Heading as="h1">Only two diners allowed</Heading>
+        <Text fontSize="md">
+          From 19 July to 8 August 2021 (Last updated {format(LAST_UPDATED, 'd MMM yyyy, HH:mm')})
+        </Text>
         <Text fontSize="xs">
           Including all Hawkers, Food Courts, Coffee Shops &amp; F&amp;B that don&apos;t have system
           in place to check vaccination / PET results
