@@ -45,4 +45,5 @@ export const LIST: Array<Place> = [
     name: 'Charlie Tea',
     insta: 'https://www.instagram.com/p/CRftC61HMGq/',
   },
+  { name: 'Cafe&Meal MUJI', fb: 'https://www.facebook.com/muji.sg/posts/4170556196359678' },
 ];
