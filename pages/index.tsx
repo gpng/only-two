@@ -106,8 +106,11 @@ const Index: FC = () => {
           From 19 July to 8 August 2021 (Last updated {format(LAST_UPDATED, 'd MMM yyyy, HH:mm')})
         </Text>
         <Text fontSize="xs">
-          Including all Hawkers, Food Courts, Coffee Shops &amp; F&amp;B that don&apos;t have system
-          in place to check vaccination / PET results
+          This list shows those that only allow 2 to dine in regardless of vaccination status.
+        </Text>
+        <Text fontSize="xs">
+          All Hawkers, Food Courts, Coffee Shops &amp; F&amp;B that don&apos;t have system in place
+          to check vaccination / PET results are restricted to 2pax.
         </Text>
         <Box>
           <Button type="button" onClick={onOpen}>
