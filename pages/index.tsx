@@ -100,7 +100,7 @@ const Index: FC = () => {
         </ModalContent>
       </Modal>
       <VStack spacing={4} alignItems="flex-start">
-        <Heading as="h1">Only two diners allowed</Heading>
+        <Heading as="h1">Only two diners allowed from 19 July to 8 August 2021</Heading>
         <Text fontSize="xs">
           Including all Hawkers, Food Courts, Coffee Shops &amp; F&amp;B that don&apos;t have system
           in place to check vaccination / PET results

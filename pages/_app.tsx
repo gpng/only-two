@@ -8,7 +8,7 @@ const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
     <>
       <DefaultSeo
         title="Only 2 diners allowed"
-        description="Search through restaurants that only allow 2 pax dine in from 19 July to 8 August"
+        description="Search through restaurants that only allow 2 pax dine in from 19 July to 8 August 2021"
       />
       <ChakraProvider resetCSS>
         <Component {...pageProps} />
