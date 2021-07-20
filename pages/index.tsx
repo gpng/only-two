@@ -105,6 +105,12 @@ const Index: FC = () => {
         <Text fontSize="md">
           From 19 July to 8 August 2021 (Last updated {format(LAST_UPDATED, 'd MMM yyyy, HH:mm')})
         </Text>
+        <Text fontSize="xs" color="red">
+          Dining in no longer allowed from 22 July.{' '}
+          <Link href="https://www.straitstimes.com/singapore/no-dining-in-social-group-sizes-cut-to-2-from-july-22-as-spore-returns-to-phase-2">
+            Read more here
+          </Link>
+        </Text>
         <Text fontSize="xs">
           This list shows those that only allow 2 to dine in regardless of vaccination status.
         </Text>
