@@ -3,7 +3,7 @@ import { Place } from 'models/place';
 export const BOT_TOKEN = process.env.NEXT_PUBLIC_BOT_TOKEN;
 export const CHAT_ID = process.env.NEXT_PUBLIC_CHAT_ID;
 
-export const LAST_UPDATED = new Date(2021, 6, 19, 22, 20);
+export const LAST_UPDATED = new Date(2021, 6, 20, 13, 40);
 
 export const LIST: Array<Place> = [
   {
@@ -47,4 +47,13 @@ export const LIST: Array<Place> = [
   },
   { name: 'Cafe&Meal MUJI', fb: 'https://www.facebook.com/muji.sg/posts/4170556196359678' },
   { name: 'Starbucks', fb: 'https://www.facebook.com/StarbucksSingapore/posts/10165050792115136' },
+  { name: 'Itacho Sushi', insta: 'https://www.instagram.com/p/CRf11qLn8ur/' },
+  { name: "Carl's Jr.", insta: 'https://www.instagram.com/p/CRfVL6els_b/' },
+  { name: 'Jolibee', fb: 'https://www.facebook.com/JollibeeSG/posts/4216363588409653' },
+  { name: 'Long John Silver', insta: 'https://www.instagram.com/p/CRdi76ShQXu/' },
+  { name: "Nando's", insta: 'https://www.instagram.com/p/CRfsQfNMEwv/' },
+  { name: 'Sushi Express', insta: 'https://www.instagram.com/p/CRfi7Z-H_wV/' },
+  { name: 'Tenderfresh', insta: 'https://www.instagram.com/p/CResmEShL58/' },
+  { name: 'The Coffee Bean and Tea Leaf', insta: 'https://www.instagram.com/p/CRfdBY6D15q/' },
+  { name: 'The Sushi Bar', insta: 'https://www.instagram.com/p/CReTB0hnWYz/' },
 ];
