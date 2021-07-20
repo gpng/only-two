@@ -53,4 +53,5 @@ export const LIST: Array<Place> = [
   { name: 'Tenderfresh', insta: 'https://www.instagram.com/p/CResmEShL58/' },
   { name: 'The Coffee Bean and Tea Leaf', insta: 'https://www.instagram.com/p/CRfdBY6D15q/' },
   { name: 'The Sushi Bar', insta: 'https://www.instagram.com/p/CReTB0hnWYz/' },
+  { name: 'Wingstop', fb: 'https://www.facebook.com/wingstopsg/posts/1989790274506160' },
 ];
